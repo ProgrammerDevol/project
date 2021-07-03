@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Form</title>
+	<link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+	<form id="form">
+	<div class="main">
+		<h1>Register</h1>
+		<p class="parag">Create your account. It's free and only takes a minute.</p>
+		<p id="error" style="color: red; font-size: 20px;"></p>
+		<ul>
+			<li>
+				<div class="user">
+					<span class="sp">
+						<input id="ism" class="ipt" type="text" placeholder="Name" />
+						<p id="ismp"></p>
+					</span>
+					<span class="sp">
+						<input id="surname" class="ipt" type="text" placeholder="Surname" />
+						<p id="surp"></p>
+					</span>
+				</div>
+			</li>
+			<li>
+				<input id="emailg" class="inter" type="text" placeholder="Email" />
+				<p id="email_p"></p>
+			</li>
+			<li>
+				<input id="password" class="inter" type="text" placeholder="Password" />
+				<p id="password_p"></p>
+			</li>
+			<li>
+				<input id="passwordcopy" class="inter" type="text" placeholder="Confirm Password" />
+				<p id="password_pt"></p>
+			</li>
+		</ul>
+		<br />
+		<div class="chek">
+			<input class="chekbox" type="checkbox" />
+			<p class="chek-yoz">I accept the <a href="#" style="color: #57ac54;">Terms of Use</a> & <a href="#" style="color: #57ac54;">Privacy Policy.</a> </p>
+		</div>
+		<button type="submit">Register Now</button>
+	</div>
+</form>
+	
+<script src="./index.js"></script>
+</body>
+
+</html>
